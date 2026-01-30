@@ -10,3 +10,20 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+
+let num1 = 10;
+let num2 = 15;
+
+// if(num1 > num2)
+// {
+//    let result = num1 * 2;
+//    console.log (result);
+// }
+// else
+// {
+//     let result = num1 + num2;
+//     console.log (result);
+// }
+
+result = num1 > num2 ? num1 * 2 : num1 + num2;
+console.log (result);
